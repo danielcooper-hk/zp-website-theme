@@ -31,16 +31,6 @@
           </ul>
         {{ end }}
       </div>
-      <div class="xl:col-span-2">
-        <h2 class="text-primary mb-2 text-center text-lg font-bold xl:text-start">About us</h2>
-        <ul class="flex flex-col gap-1 text-sm">
-          {{ range .Site.Menus.footer }}
-            <li class="text-center xl:text-start">
-              <a class="" href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      </div>
       <div class="xl:col-span-3">
         <h2 class="text-primary mb-2 text-center text-lg font-bold xl:text-start">Location</h2>
         <ul class="flex flex-col gap-3 text-sm">
