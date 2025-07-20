@@ -6,3 +6,7 @@
     }
   }
 }
+
+.image-rounding {
+  border-radius: var(--radius-4xl);
+}
