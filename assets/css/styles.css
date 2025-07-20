@@ -15,7 +15,7 @@
 @theme {
   --color-primary: {{ (default "#555272	" site.Params.colors.primary) }};
   --color-secondary: {{ (default "#007c82	" site.Params.colors.secondary) }};
-  --color-tertiary: {{ (default "#ob2640" site.Params.colors.tertiary) }};
+  --color-tertiary: {{ (default "#0b2640" site.Params.colors.tertiary) }};
 }
 
 body {
